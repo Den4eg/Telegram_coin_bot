@@ -15,12 +15,12 @@ cur.execute("""CREATE TABLE IF NOT EXISTS Account (
 
 db.commit()
 
-Phone = "+79106684539"
+Phone = ""
 password = "qwerty12345"
-Api_id = "1672785"
-Api_hash = "a7e71e0f254dd2a761210a05940dff3a"
+Api_id = ""
+Api_hash = "a7e71e0f"
 Activity = "ON"
-Litecoin = "ltc1qd3pe3e588uhmlegfa5ftc496cq52609k7n50lf"
+Litecoin = "ltc1qd3pe3e588"
 
 cur.execute(f"SELECT PHONE FROM Account WHERE PHONE = '{Phone}'")
 if cur.fetchone() is None:
